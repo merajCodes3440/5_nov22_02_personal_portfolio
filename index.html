@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>personla_portfolio</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div id="header"> 
+     <div class="container">
+       <nav>
+         <img src="logo.png" class ="logo">
+         <ul>
+           <li><a href="#">Home</a></li>
+           <li><a href="#">About</a></li>
+           <li><a href="#">Service</a></li>
+           <li><a href="#">Portfolio</a></li>
+           <li><a href="#">Contact</a></li>
+         </ul>
+       </nav>
+       <div class="header-text"> 
+         <p>Softwere Developer</p>
+         <h1>Hi,My name is <br> <span> Meraj </span>I'm form India </h1>
+       </div>
+     </div>
+  </div>
+    <!---about--->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">  
+            <img src='user.png'></div>
+             <div class="about-col-2">
+            <h1 class="sub-title">About me</h1>
+               <p>Hi, I’m Codey! I'm a web developer with in-depth experience in UI/UX design. In a nutshell, I create websites that help organizations address business challenges and meet their needs. I manage everything from website navigation and layout to a company's web hosting and security architecture. My expertise lies within front-end web apps, and the main languages in my tech stack are JavaScript, React, and of course HTML/CSS. I’m a lifelong learner (currently taking a course on building AI chatbots with Python!) and love to read, run, and find new bubble tea shops in New York City.</p>
+               <div class="tab-titles">
+                 <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                 <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                 <p class="tab-links" onclick="opentab('education')">Education</p>
+               </div>
+               <div class="tab-contents active-tab" id="skills">
+                 <ul>
+                   <li><span>UI/UX</span><br>design webapp interface</li>
+                   <li><span>Web Development</span><br>website design </li>
+                   <li><span>App Development</span><br>application design</li>
+                 </ul>
+               </div>
+               <div class="tab-contents" id="experience">
+                 <ul>
+                   <li><span>2021 current</span><br> training design webapp interface</li>
+                   <li><span>2019-2021</span><br> team lead website design </li>
+                   <li><span>2017-2019</span><br> trainee application design</li>
+                 </ul>
+               </div>
+               <div class="tab-contents"id="education">
+                 <ul>
+                   <li><span>2020</span><br>B.E in MECH</li>
+                   <li><span>2017</span><br>DIPLOMA IN MECH </li>
+                   <li><span>2015</span><br>SSC IN PCM</li>
+                 </ul>
+               </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  <script src="script.js"></script>
+  <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script> 
+</body>
+
+</html>
